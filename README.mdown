@@ -1,0 +1,43 @@
+DrawablePresentation
+=====================
+ 
+DrawablePresentation is a collection of several small Android projects demonstrating some features of Android's `Drawable`s. It has been developed as a demonstrative application of the "Drawable overview" presentation (the original French name was "Tour d'horizon des Drawables") given on February 12, 2010 at the Android Developer Labs in Paris.
+
+What's in DrawablePresentation?
+===============================
+                  
+DrawableListing
+---------------
+
+[DrawableListing][] This project aims to show how useful Android's `Drawable`s are. It demonstrates how to create advanced `Drawables` mainly via XML. Some examples also include samples creating `Drawable` in the Java code.
+
+FlattenHierarchy
+----------------
+
+[FlattenHierarchy][] `Drawable`s can be used to flatten the view hierachy of a layout. This sample is based on an application called "MetroMap Paris" and rewrites its splash screen using as few `View`s as possible.
+
+RemoteDrawable
+---------------
+
+[RemoteDrawable][] This project explains how to create your own Drawable (class that inherits from the Android's `Drawable` class). The `RemoteDrawable` can be created via code only and displays a temporary `Drawable` (placeholder) while another one is being downloaded in the background. When the final `Drawable` is available, `RemoteDrawable` automatically notifies the `View` to redraw itself.
+
+Software Requirements
+=====================
+ 
+DrawablePresentation piece of software have been compiled and tested with,
+ 
+  Eclipse IDE 3.5
+  Android SDK release 2.1
+  Android Development Tools (ADT) 0.9.5
+ 
+Go the [Android Developers website][] for complete installation instructions
+ 
+Credits
+=======
+ 
+Copyright Cyril Mottier <cyril@cyrilmottier.com>
+
+[Android Developers website]: http://d.android.com/sdk/installing.html
+[DrawableListing]: http://github.com/cyrilmottier/DrawablePresentation/blob/master/DrawableListing
+[FlattenHierarchy]: http://github.com/cyrilmottier/DrawablePresentation/blob/master/FlattenHierarchy
+[RemoteDrawable]: http://github.com/cyrilmottier/DrawablePresentation/blob/master/RemoteDrawable
